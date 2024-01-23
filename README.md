@@ -1,1 +1,7 @@
 # learn-typescript
+
+## Slide
+[Slide](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa24wUHN5N1JNVkZCMDhwYm5PcHNBbzNwMHBmUXxBQ3Jtc0tsYUUzM1pSc3J2S0RLcW50VldwVXp3YkNacGxsc2tBZzlJTnhtSVN1bEFFVnd1UmdnaGNNWERTX2lFRTRaOTVIdXJGRHdvXzNpZGEyNFlhdlVFRHdIbU03Q181dGxpYmpXNk1aV0hHSHVGYlFpV294SQ&q=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F1r1UK4sSyAkH2h0EIym3PXOtJN9YsuV8clWaTJw_Ns4E%2Fedit%3Fusp%3Dsharing&v=C_C64faSO4c)
+
+## Setup
+Setup bisa dilihat pada slide

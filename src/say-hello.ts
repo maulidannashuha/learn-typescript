@@ -1,3 +1,3 @@
-export function sayHello(name: String): String {
-    return `Hello ${name}`
+export function sayHello(name?: String | null): String {
+    return `Hello ${name != undefined ? name : ''}`
 }

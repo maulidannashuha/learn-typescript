@@ -1,3 +1,5 @@
+import { Manager } from "../src/employee"
+
 describe('interface', () => {
     it('should support indexable interface', () => {
         interface StringArray{
@@ -19,5 +21,15 @@ describe('interface', () => {
         }
 
         expect(student['name']).toBe('Maulidan')
+    })
+
+    it('should support extend interface', () => {
+        const manager: Manager = {
+            name: 'Maulidan',
+            position: 'Manager',
+            lead: 10
+        }
+
+        expect(manager.lead).toBe(10)
     })
 })

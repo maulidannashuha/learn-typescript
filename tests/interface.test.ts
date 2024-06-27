@@ -32,4 +32,20 @@ describe('interface', () => {
 
         expect(manager.lead).toBe(10)
     })
+
+    it('should support function interface', () => { 
+        interface Student{
+            name: string,
+            sayHello(name: string): string
+        }
+
+        const student: Student = {
+            name: 'Maulidan Nashuha',
+            sayHello(name) {
+                return `Hello ${name}`
+            }
+        }
+
+        expect(student.sayHello('Maulidan')).toBe('Hello Maulidan')
+    })
 })

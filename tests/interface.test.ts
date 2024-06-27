@@ -1,4 +1,4 @@
-import { Manager } from "../src/employee"
+import { Employee, Manager } from "../src/employee"
 
 describe('interface', () => {
     it('should support indexable interface', () => {
@@ -66,5 +66,16 @@ describe('interface', () => {
         }
 
         expect(domain.id).toBe('1')
+    })
+
+    it('should support type assertion', () => { 
+        const employee = {
+            name: 'Maulidan',
+            position: 'Lead'
+        }
+
+        const employee2: Employee = employee as Employee
+        
+        expect(employee.name).toBe('Maulidan')
     })
 })

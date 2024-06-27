@@ -48,4 +48,23 @@ describe('interface', () => {
 
         expect(student.sayHello('Maulidan')).toBe('Hello Maulidan')
     })
+
+    it('should support intersection type', () => {
+        interface HasID{
+            id: string
+        }
+
+        interface HasName{
+            name: string
+        }
+
+        type Domain = HasID & HasName
+
+        const domain: Domain = {
+            id: "1",
+            name: "Maulidan"
+        }
+
+        expect(domain.id).toBe('1')
+    })
 })
